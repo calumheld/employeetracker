@@ -28,4 +28,4 @@ INSERT INTO department (name) values("marketing"),("QA"),("development");
 INSERT INTO role(title,salary,department_id) values("social media manager", 33000, 1), ("social media peon",29000,1),("QA lead",43000,2),("QA whipping boy",35000,2),("software developer", 45000, 3),("software developee",35000, 3);
 INSERT INTO employee(first_name,last_name,role_id) VALUES("Gork","McGork",1),("Pattycake","Shepard",3),("Bob", "Bifford",5);
 INSERT INTO employee(first_name,last_name,role_id,manager_id) VALUES("AAAAAAAAA", "AAAAAAAA", 2, 1),("Beefy","McLarge-Huge",4,2),("Griff","Oberwold",6,3);
-select * from employee;
+select * from department;
